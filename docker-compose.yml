@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx/html:/usr/share/nginx/html           # Répertoire des fichiers HTML et PHP
+      - ./nginx/logs:/var/log/nginx                  # Répertoire des logs Nginx
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf  # Configuration Nginx
+    ports:
+      - "8081:80"                                    # Port d'accès à ton site
+    depends_on:
+      - php                                           # Attente de PHP avant de démarrer Nginx
+    networks:
+      - loki                                         # Utilisation du réseau 'loki'
+
+  php:
+    image: php:7.4-fpm
+    volumes:
+      - ./nginx/html:/var/www/html                   # Fichiers PHP traitant le formulaire
+    networks:
+      - loki                                         # PHP communique avec Nginx sur ce réseau
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mydatabase
+    networks:
+      - loki
+    volumes:
+      - ./mysql/data:/var/lib/mysql                  # Persistance des données MySQL
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql   # Script d'initialisation MySQL
+
+  promtail:
+    image: grafana/promtail:2.9.2
+    volumes:
+      - ./promtail/promtail-config.yaml:/etc/promtail/config.yml  # Config Promtail
+      - ./nginx/logs:/var/log/nginx                                # Logs Nginx surveillés par Promtail
+    networks:
+      - loki
+
+  loki:
+    image: grafana/loki:2.9.2
+    ports:
+      - "3100:3100"
+    networks:
+      - loki
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - loki
+
+networks:
+  loki:                        # Définition du réseau 'loki'

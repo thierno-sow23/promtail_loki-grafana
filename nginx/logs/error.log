@@ -1,0 +1,388 @@
+2024/10/10 13:57:05 [notice] 1#1: using the "epoll" event method
+2024/10/10 13:57:05 [notice] 1#1: nginx/1.27.2
+2024/10/10 13:57:05 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/10 13:57:05 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/10 13:57:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 13:57:05 [notice] 1#1: start worker processes
+2024/10/10 13:57:05 [notice] 1#1: start worker process 29
+2024/10/10 13:57:05 [notice] 1#1: start worker process 30
+2024/10/10 13:57:25 [error] 29#29: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/10 13:57:47 [error] 29#29: *1 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/10 13:58:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 13:58:28 [notice] 30#30: gracefully shutting down
+2024/10/10 13:58:28 [notice] 29#29: gracefully shutting down
+2024/10/10 13:58:28 [notice] 30#30: exiting
+2024/10/10 13:58:28 [notice] 30#30: exit
+2024/10/10 13:58:28 [notice] 29#29: exiting
+2024/10/10 13:58:28 [notice] 29#29: exit
+2024/10/10 13:58:28 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/10 13:58:28 [notice] 1#1: worker process 29 exited with code 0
+2024/10/10 13:58:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 13:58:28 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/10/10 13:58:28 [notice] 1#1: worker process 30 exited with code 0
+2024/10/10 13:58:28 [notice] 1#1: exit
+2024/10/10 14:25:52 [notice] 1#1: using the "epoll" event method
+2024/10/10 14:25:52 [notice] 1#1: nginx/1.27.2
+2024/10/10 14:25:52 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/10 14:25:52 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/10 14:25:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 14:25:52 [notice] 1#1: start worker processes
+2024/10/10 14:25:52 [notice] 1#1: start worker process 28
+2024/10/10 14:25:52 [notice] 1#1: start worker process 29
+2024/10/10 14:40:44 [error] 29#29: *1 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/10 14:41:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 14:41:54 [notice] 29#29: gracefully shutting down
+2024/10/10 14:41:54 [notice] 29#29: exiting
+2024/10/10 14:41:54 [notice] 28#28: gracefully shutting down
+2024/10/10 14:41:54 [notice] 28#28: exiting
+2024/10/10 14:41:54 [notice] 29#29: exit
+2024/10/10 14:41:54 [notice] 28#28: exit
+2024/10/10 14:41:54 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/10/10 14:41:54 [notice] 1#1: worker process 28 exited with code 0
+2024/10/10 14:41:54 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 14:41:54 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/10 14:41:54 [notice] 1#1: worker process 29 exited with code 0
+2024/10/10 14:41:54 [notice] 1#1: exit
+2024/10/10 14:46:05 [notice] 1#1: using the "epoll" event method
+2024/10/10 14:46:05 [notice] 1#1: nginx/1.27.2
+2024/10/10 14:46:05 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/10 14:46:05 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/10 14:46:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 14:46:05 [notice] 1#1: start worker processes
+2024/10/10 14:46:05 [notice] 1#1: start worker process 21
+2024/10/10 14:46:05 [notice] 1#1: start worker process 22
+2024/10/10 14:46:44 [error] 22#22: *1 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/10 14:47:03 [error] 22#22: *1 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/10 15:06:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 15:06:57 [notice] 22#22: gracefully shutting down
+2024/10/10 15:06:57 [notice] 22#22: exiting
+2024/10/10 15:06:57 [notice] 22#22: exit
+2024/10/10 15:06:57 [notice] 21#21: gracefully shutting down
+2024/10/10 15:06:57 [notice] 21#21: exiting
+2024/10/10 15:06:57 [notice] 21#21: exit
+2024/10/10 15:06:57 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/10/10 15:06:57 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 15:06:57 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 15:06:57 [notice] 1#1: exit
+2024/10/10 15:07:02 [notice] 1#1: using the "epoll" event method
+2024/10/10 15:07:02 [notice] 1#1: nginx/1.27.2
+2024/10/10 15:07:02 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/10 15:07:02 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/10 15:07:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 15:07:02 [notice] 1#1: start worker processes
+2024/10/10 15:07:02 [notice] 1#1: start worker process 22
+2024/10/10 15:07:02 [notice] 1#1: start worker process 23
+2024/10/10 15:07:44 [error] 22#22: *1 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/10 15:07:48 [error] 22#22: *1 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/13 11:37:57 [notice] 1#1: using the "epoll" event method
+2024/10/13 11:37:57 [notice] 1#1: nginx/1.27.2
+2024/10/13 11:37:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/13 11:37:57 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/13 11:37:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/13 11:37:57 [notice] 1#1: start worker processes
+2024/10/13 11:37:57 [notice] 1#1: start worker process 22
+2024/10/13 11:37:57 [notice] 1#1: start worker process 23
+2024/10/13 11:48:09 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8081", referrer: "http://127.0.0.1:8081/"
+2024/10/13 11:48:32 [error] 22#22: *1 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "127.0.0.1:8081", referrer: "http://127.0.0.1:8081/"
+2024/10/13 11:48:32 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8081", referrer: "http://127.0.0.1:8081/submit_form.php"
+2024/10/13 12:07:58 [error] 23#23: *2 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", host: "127.0.0.1:8081", referrer: "http://127.0.0.1:8081/"
+2024/10/13 12:08:02 [error] 23#23: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2024/10/13 12:15:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/13 12:15:23 [notice] 22#22: gracefully shutting down
+2024/10/13 12:15:23 [notice] 23#23: gracefully shutting down
+2024/10/13 12:15:23 [notice] 23#23: exiting
+2024/10/13 12:15:23 [notice] 22#22: exiting
+2024/10/13 12:15:23 [notice] 23#23: exit
+2024/10/13 12:15:23 [notice] 22#22: exit
+2024/10/13 12:15:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/10/13 12:15:23 [notice] 1#1: worker process 23 exited with code 0
+2024/10/13 12:15:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/13 12:15:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/13 12:15:23 [notice] 1#1: worker process 22 exited with code 0
+2024/10/13 12:15:23 [notice] 1#1: exit
+2024/10/13 12:15:42 [notice] 1#1: using the "epoll" event method
+2024/10/13 12:15:42 [notice] 1#1: nginx/1.27.2
+2024/10/13 12:15:42 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/13 12:15:42 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/13 12:15:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/13 12:15:42 [notice] 1#1: start worker processes
+2024/10/13 12:15:42 [notice] 1#1: start worker process 29
+2024/10/13 12:15:42 [notice] 1#1: start worker process 30
+2024/10/13 12:19:16 [error] 30#30: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2024/10/13 12:19:49 [error] 30#30: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2024/10/13 12:19:54 [error] 30#30: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2024/10/13 12:19:55 [error] 30#30: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2024/10/13 12:19:55 [error] 30#30: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2024/10/13 12:20:38 [error] 29#29: *2 open() "/usr/share/nginx/html/submit_form.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", host: "172.18.0.1:8081", referrer: "http://172.18.0.1:8081/"
+2024/10/13 12:22:02 [error] 30#30: *3 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2024/10/13 12:22:03 [error] 30#30: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/13 12:26:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/13 12:26:33 [notice] 29#29: gracefully shutting down
+2024/10/13 12:26:33 [notice] 29#29: exiting
+2024/10/13 12:26:33 [notice] 30#30: gracefully shutting down
+2024/10/13 12:26:33 [notice] 30#30: exiting
+2024/10/13 12:26:33 [notice] 29#29: exit
+2024/10/13 12:26:33 [notice] 30#30: exit
+2024/10/13 12:26:33 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/10/13 12:26:33 [notice] 1#1: worker process 30 exited with code 0
+2024/10/13 12:26:33 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/13 12:26:33 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/13 12:26:33 [notice] 1#1: worker process 29 exited with code 0
+2024/10/13 12:26:33 [notice] 1#1: exit
+2024/10/13 12:26:51 [notice] 1#1: using the "epoll" event method
+2024/10/13 12:26:51 [notice] 1#1: nginx/1.27.2
+2024/10/13 12:26:51 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/13 12:26:51 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/13 12:26:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/13 12:26:51 [notice] 1#1: start worker processes
+2024/10/13 12:26:51 [notice] 1#1: start worker process 29
+2024/10/13 12:26:51 [notice] 1#1: start worker process 30
+2024/10/13 12:27:21 [error] 29#29: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2024/10/13 12:27:24 [error] 29#29: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2024/10/13 12:27:25 [error] 29#29: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2024/10/13 12:28:59 [error] 30#30: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2024/10/13 12:43:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/13 12:43:48 [notice] 29#29: gracefully shutting down
+2024/10/13 12:43:48 [notice] 30#30: gracefully shutting down
+2024/10/13 12:43:48 [notice] 30#30: exiting
+2024/10/13 12:43:48 [notice] 29#29: exiting
+2024/10/13 12:43:48 [notice] 30#30: exit
+2024/10/13 12:43:48 [notice] 29#29: exit
+2024/10/13 12:43:48 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/10/13 12:43:48 [notice] 1#1: worker process 30 exited with code 0
+2024/10/13 12:43:48 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/13 12:43:48 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/13 12:43:48 [notice] 1#1: worker process 29 exited with code 0
+2024/10/13 12:43:48 [notice] 1#1: exit
+2024/10/13 12:44:06 [notice] 1#1: using the "epoll" event method
+2024/10/13 12:44:06 [notice] 1#1: nginx/1.27.2
+2024/10/13 12:44:06 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/13 12:44:06 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/13 12:44:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/13 12:44:06 [notice] 1#1: start worker processes
+2024/10/13 12:44:06 [notice] 1#1: start worker process 29
+2024/10/13 12:44:06 [notice] 1#1: start worker process 30
+2024/10/13 12:50:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/13 12:50:20 [notice] 29#29: gracefully shutting down
+2024/10/13 12:50:20 [notice] 30#30: gracefully shutting down
+2024/10/13 12:50:20 [notice] 29#29: exiting
+2024/10/13 12:50:20 [notice] 29#29: exit
+2024/10/13 12:50:20 [notice] 30#30: exiting
+2024/10/13 12:50:20 [notice] 30#30: exit
+2024/10/13 12:50:20 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/13 12:50:20 [notice] 1#1: worker process 29 exited with code 0
+2024/10/13 12:50:20 [notice] 1#1: worker process 30 exited with code 0
+2024/10/13 12:50:20 [notice] 1#1: exit
+2024/10/13 12:50:38 [notice] 1#1: using the "epoll" event method
+2024/10/13 12:50:38 [notice] 1#1: nginx/1.27.2
+2024/10/13 12:50:38 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/13 12:50:38 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/13 12:50:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/13 12:50:38 [notice] 1#1: start worker processes
+2024/10/13 12:50:38 [notice] 1#1: start worker process 29
+2024/10/13 12:50:38 [notice] 1#1: start worker process 30
+2024/10/13 12:58:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/13 12:58:57 [notice] 29#29: gracefully shutting down
+2024/10/13 12:58:57 [notice] 29#29: exiting
+2024/10/13 12:58:57 [notice] 29#29: exit
+2024/10/13 12:58:57 [notice] 30#30: gracefully shutting down
+2024/10/13 12:58:57 [notice] 30#30: exiting
+2024/10/13 12:58:57 [notice] 30#30: exit
+2024/10/13 12:58:57 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/10/13 12:58:57 [notice] 1#1: worker process 30 exited with code 0
+2024/10/13 12:58:57 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/13 12:58:57 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/13 12:58:57 [notice] 1#1: worker process 29 exited with code 0
+2024/10/13 12:58:57 [notice] 1#1: exit
+2024/10/13 12:59:27 [notice] 1#1: using the "epoll" event method
+2024/10/13 12:59:27 [notice] 1#1: nginx/1.27.2
+2024/10/13 12:59:27 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/13 12:59:27 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/13 12:59:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/13 12:59:27 [notice] 1#1: start worker processes
+2024/10/13 12:59:27 [notice] 1#1: start worker process 29
+2024/10/13 12:59:27 [notice] 1#1: start worker process 30
+2024/10/16 08:30:16 [notice] 1#1: using the "epoll" event method
+2024/10/16 08:30:16 [notice] 1#1: nginx/1.27.2
+2024/10/16 08:30:16 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 08:30:16 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 08:30:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 08:30:16 [notice] 1#1: start worker processes
+2024/10/16 08:30:16 [notice] 1#1: start worker process 22
+2024/10/16 08:30:16 [notice] 1#1: start worker process 23
+2024/10/16 08:51:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/16 08:51:49 [notice] 22#22: gracefully shutting down
+2024/10/16 08:51:49 [notice] 23#23: gracefully shutting down
+2024/10/16 08:51:49 [notice] 23#23: exiting
+2024/10/16 08:51:49 [notice] 22#22: exiting
+2024/10/16 08:51:49 [notice] 23#23: exit
+2024/10/16 08:51:49 [notice] 22#22: exit
+2024/10/16 08:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/10/16 08:51:49 [notice] 1#1: worker process 23 exited with code 0
+2024/10/16 08:51:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/16 08:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/16 08:51:49 [notice] 1#1: worker process 22 exited with code 0
+2024/10/16 08:51:49 [notice] 1#1: exit
+2024/10/16 08:51:51 [notice] 1#1: using the "epoll" event method
+2024/10/16 08:51:51 [notice] 1#1: nginx/1.27.2
+2024/10/16 08:51:51 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 08:51:51 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 08:51:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 08:51:51 [notice] 1#1: start worker processes
+2024/10/16 08:51:51 [notice] 1#1: start worker process 22
+2024/10/16 08:51:51 [notice] 1#1: start worker process 23
+2024/10/16 09:11:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/16 09:11:53 [notice] 22#22: gracefully shutting down
+2024/10/16 09:11:53 [notice] 22#22: exiting
+2024/10/16 09:11:53 [notice] 23#23: gracefully shutting down
+2024/10/16 09:11:53 [notice] 23#23: exiting
+2024/10/16 09:11:53 [notice] 23#23: exit
+2024/10/16 09:11:53 [notice] 22#22: exit
+2024/10/16 09:11:53 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/16 09:11:53 [notice] 1#1: worker process 22 exited with code 0
+2024/10/16 09:11:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/16 09:11:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/10/16 09:11:53 [notice] 1#1: worker process 23 exited with code 0
+2024/10/16 09:11:53 [notice] 1#1: exit
+2024/10/16 09:12:13 [notice] 1#1: using the "epoll" event method
+2024/10/16 09:12:13 [notice] 1#1: nginx/1.27.2
+2024/10/16 09:12:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 09:12:13 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 09:12:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 09:12:13 [notice] 1#1: start worker processes
+2024/10/16 09:12:13 [notice] 1#1: start worker process 28
+2024/10/16 09:12:13 [notice] 1#1: start worker process 29
+2024/10/16 09:13:26 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 09:13:28 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 09:13:28 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 09:13:29 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 09:13:29 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 09:13:29 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 09:13:44 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 13:01:33 [notice] 1#1: using the "epoll" event method
+2024/10/16 13:01:33 [notice] 1#1: nginx/1.27.2
+2024/10/16 13:01:33 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 13:01:33 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 13:01:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 13:01:33 [notice] 1#1: start worker processes
+2024/10/16 13:01:33 [notice] 1#1: start worker process 28
+2024/10/16 13:01:33 [notice] 1#1: start worker process 29
+2024/10/16 13:02:16 [error] 29#29: *1 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 13:02:36 [error] 29#29: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.6:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 13:04:27 [error] 28#28: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.6:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 13:04:27 [error] 28#28: *3 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 13:31:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/16 13:31:53 [notice] 28#28: gracefully shutting down
+2024/10/16 13:31:53 [notice] 28#28: exiting
+2024/10/16 13:31:53 [notice] 28#28: exit
+2024/10/16 13:31:53 [notice] 29#29: gracefully shutting down
+2024/10/16 13:31:53 [notice] 29#29: exiting
+2024/10/16 13:31:53 [notice] 29#29: exit
+2024/10/16 13:31:53 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/16 13:31:53 [notice] 1#1: worker process 29 exited with code 0
+2024/10/16 13:31:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/16 13:31:53 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/10/16 13:31:53 [notice] 1#1: worker process 28 exited with code 0
+2024/10/16 13:31:53 [notice] 1#1: exit
+2024/10/16 13:32:13 [notice] 1#1: using the "epoll" event method
+2024/10/16 13:32:13 [notice] 1#1: nginx/1.27.2
+2024/10/16 13:32:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 13:32:13 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 13:32:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 13:32:13 [notice] 1#1: start worker processes
+2024/10/16 13:32:13 [notice] 1#1: start worker process 28
+2024/10/16 13:32:13 [notice] 1#1: start worker process 29
+2024/10/16 13:32:49 [error] 29#29: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 13:32:49 [error] 29#29: *1 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 13:33:05 [error] 28#28: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081"
+2024/10/16 13:33:05 [error] 28#28: *3 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/10/16 13:33:33 [error] 29#29: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 13:33:33 [error] 29#29: *6 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 14:56:32 [error] 29#29: *8 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 14:56:32 [error] 29#29: *8 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 14:58:42 [error] 29#29: *11 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 14:58:42 [error] 29#29: *11 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 15:20:06 [error] 29#29: *14 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 15:20:22 [error] 29#29: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 15:20:22 [error] 29#29: *14 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 15:29:38 [error] 29#29: *16 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 15:29:43 [error] 29#29: *16 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 15:29:47 [error] 29#29: *17 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:10:31 [error] 29#29: *19 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081"
+2024/10/16 16:10:34 [error] 29#29: *19 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 16:17:27 [error] 29#29: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:17:28 [error] 29#29: *21 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 16:17:38 [error] 29#29: *24 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:19:25 [error] 29#29: *27 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:19:34 [error] 29#29: *28 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:19:34 [error] 29#29: *28 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 16:39:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/16 16:39:30 [notice] 29#29: gracefully shutting down
+2024/10/16 16:39:30 [notice] 28#28: gracefully shutting down
+2024/10/16 16:39:30 [notice] 28#28: exiting
+2024/10/16 16:39:30 [notice] 28#28: exit
+2024/10/16 16:39:30 [notice] 29#29: exiting
+2024/10/16 16:39:30 [notice] 29#29: exit
+2024/10/16 16:39:31 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/10/16 16:39:31 [notice] 1#1: worker process 28 exited with code 0
+2024/10/16 16:39:31 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/16 16:39:31 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/16 16:39:31 [notice] 1#1: worker process 29 exited with code 0
+2024/10/16 16:39:31 [notice] 1#1: exit
+2024/10/16 16:40:01 [notice] 1#1: using the "epoll" event method
+2024/10/16 16:40:01 [notice] 1#1: nginx/1.27.2
+2024/10/16 16:40:01 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 16:40:01 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 16:40:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 16:40:01 [notice] 1#1: start worker processes
+2024/10/16 16:40:01 [notice] 1#1: start worker process 28
+2024/10/16 16:40:01 [notice] 1#1: start worker process 29
+2024/10/16 16:40:28 [error] 28#28: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:40:36 [error] 28#28: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:40:37 [error] 28#28: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/submit_form.php"
+2024/10/16 16:43:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/16 16:43:57 [notice] 29#29: gracefully shutting down
+2024/10/16 16:43:57 [notice] 29#29: exiting
+2024/10/16 16:43:57 [notice] 29#29: exit
+2024/10/16 16:43:57 [notice] 28#28: gracefully shutting down
+2024/10/16 16:43:57 [notice] 28#28: exiting
+2024/10/16 16:43:57 [notice] 28#28: exit
+2024/10/16 16:43:57 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/10/16 16:43:57 [notice] 1#1: worker process 29 exited with code 0
+2024/10/16 16:43:57 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/16 16:43:57 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/10/16 16:43:57 [notice] 1#1: worker process 28 exited with code 0
+2024/10/16 16:43:57 [notice] 1#1: exit
+2024/10/16 16:44:27 [notice] 1#1: using the "epoll" event method
+2024/10/16 16:44:27 [notice] 1#1: nginx/1.27.2
+2024/10/16 16:44:27 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 16:44:27 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 16:44:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 16:44:27 [notice] 1#1: start worker processes
+2024/10/16 16:44:27 [notice] 1#1: start worker process 27
+2024/10/16 16:44:27 [notice] 1#1: start worker process 28
+2024/10/16 16:44:58 [error] 27#27: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:45:08 [error] 27#27: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:54:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/16 16:54:52 [notice] 27#27: gracefully shutting down
+2024/10/16 16:54:52 [notice] 27#27: exiting
+2024/10/16 16:54:52 [notice] 27#27: exit
+2024/10/16 16:54:52 [notice] 28#28: gracefully shutting down
+2024/10/16 16:54:52 [notice] 28#28: exiting
+2024/10/16 16:54:52 [notice] 28#28: exit
+2024/10/16 16:54:53 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/10/16 16:54:53 [notice] 1#1: worker process 28 exited with code 0
+2024/10/16 16:54:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/16 16:54:53 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/10/16 16:54:53 [notice] 1#1: worker process 27 exited with code 0
+2024/10/16 16:54:53 [notice] 1#1: exit
+2024/10/16 16:55:35 [notice] 1#1: using the "epoll" event method
+2024/10/16 16:55:35 [notice] 1#1: nginx/1.27.2
+2024/10/16 16:55:35 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/10/16 16:55:35 [notice] 1#1: OS: Linux 6.1.0-18-amd64
+2024/10/16 16:55:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/16 16:55:35 [notice] 1#1: start worker processes
+2024/10/16 16:55:35 [notice] 1#1: start worker process 28
+2024/10/16 16:55:35 [notice] 1#1: start worker process 29
+2024/10/16 16:55:57 [error] 29#29: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/10/16 16:56:01 [error] 28#28: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "POST /submit_form.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost:8081", referrer: "http://localhost:8081/"
